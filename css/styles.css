@@ -163,3 +163,17 @@
         color: red;
     }
 }
+
+@media screen and (max-width: 1280px) {
+    .heading-2{
+        font-size:48px;
+        color: red;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .heading-2{
+        font-size:36px;
+        color: red;
+    }
+}
