@@ -131,6 +131,35 @@
     color: #FF6F0F
 }
 .heading-2{
+    font-size: 12px;
     text-align: center;
-    font-weight: bold
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width:360px) {
+    .heading-2{
+        font-size:20px;
+    }
+}
+
+@media screen and (min-width:540px) {
+    .heading-2{
+        font-size:28px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .heading-2{
+        font-size:36px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .heading-2{
+        font-size:48px;
+        color: red;
+    }
 }
