@@ -136,6 +136,41 @@
     font-weight: bold;
 }
 
+.card-heading{
+    margin: 12px 0;
+}
+
+.card-style{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.main-heading{
+    text-align: center;
+}
+
+.section-3{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-desc{
+    text-align: center;
+}
+
+.main-heading-type-2{
+    text-align: center;
+}
+
 @media screen and (min-width: 768px){
 
 }
