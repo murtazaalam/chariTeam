@@ -170,7 +170,53 @@
 .main-heading-type-2{
     text-align: center;
 }
-
+.straight-line{
+    width: 200px;
+    height: 4px;
+    background-color: #FF6F0F;
+}
+.line-1{
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+}
+.percent-container{
+    width: 35px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background-color: #FF6F0F;
+}
+.line-2{
+    margin-left: 80px;
+    margin-top: 40px;
+    width: 235px;
+    height: 4px;
+    position: relative;
+    background-color: #FF6F0F;
+}
+.percent-2{
+    top: -8px;
+    right: 0;
+    position: absolute;
+}
+.line-3{
+    margin-top: 40px;
+    margin-left: 80px;
+    width: 235px;
+    border-bottom: 4px solid #FF6F0F;
+}
+.position3{
+    top: -8px;
+    right: 0;
+    position: absolute;
+}
+.line-4{
+    position: relative;
+    width: fit-content;
+}
 @media screen and (min-width: 768px){
 
 }
