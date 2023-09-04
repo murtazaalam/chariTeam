@@ -233,9 +233,10 @@
     font-weight: bold;
 }
 footer{
-    padding: 48px 120px;
+    padding: 48px 40px;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 footer ul{
     list-style-type: none;
@@ -293,10 +294,10 @@ footer button{
     margin-top: 2px;
 }
 .lowest-footer{
-    padding: 32px 120px;
+    padding: 32px 40px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     position: relative;
 }
 .lowest-footer p{
@@ -313,9 +314,7 @@ footer button{
     background-color: #f3bd00;
     color: #fff;
     right: 16px;
-}
-@media screen and (min-width: 768px){
-
+    top: 60px;
 }
 
 @media screen and (min-width:360px) {
@@ -324,28 +323,57 @@ footer button{
     }
 }
 
-@media screen and (min-width:540px) {
+@media screen and (min-width: 540px) {
+    footer{
+        padding: 48px 100px;
+    }
     .heading-2{
         font-size:28px;
     }
 }
 
+@media screen and (min-width: 768px) {
+    .lowest-footer button{
+        top: auto;
+    }
+    .lowest-footer{
+        padding: 32px 80px;
+        flex-direction: row;
+    }
+    footer{
+        padding: 48px 10px;
+        flex-direction: row;
+    }
+}
+
 @media screen and (min-width:1024px) {
+    .lowest-footer{
+        padding: 32px 120px;
+    }
+    footer{
+        padding: 48px 24px;
+    }
     .heading-2{
         font-size:36px;
     }
 }
-@media screen and (min-width:1280px) {
+
+@media screen and (min-width: 1280px) {
+    footer{
+        padding: 48px 80px;
+    }
+    .heading-2{
+        font-size:48px;
+        color: red;
+    }
     .heading-2{
         font-size:48px;
         color: red;
     }
 }
-
-@media screen and (max-width: 1280px) {
-    .heading-2{
-        font-size:48px;
-        color: red;
+@media screen and (min-width: 1400px) {
+    footer{
+        padding: 48px 120px;
     }
 }
 
